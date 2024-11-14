@@ -1,0 +1,3417 @@
+
+header nav .content
+{
+    height: 900px;
+    width: 230px;
+    padding: 0;
+    position: fixed;
+    border-right: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.content h1
+{
+    margin: 40px;
+    margin-left: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes color{
+    0%
+    {
+        color: orangered;
+    }
+    25%
+{
+    color: red;
+}
+50%
+{
+    color: orange;
+}
+75%
+{
+    color: red;
+}
+100%
+{
+    color:orange;
+}
+}
+
+.menu
+{
+    margin-left: 30px;
+    gap: 100px;
+    margin-right: 30px;
+    height: 430px;
+    
+}
+.menu h3 a i
+{
+   padding-right: 15px;
+}
+.menu h3 a
+{
+    text-decoration: none;
+    color: black;
+}
+.menu p
+{
+    padding-top:10px ;
+    padding-bottom:10px ;
+    font-size: 18px;
+}
+.menu p a i
+{
+   padding-right: 15px;
+}
+.menu p a
+{
+    text-decoration: none;
+    color: black;
+}
+.content h4 
+{
+padding-top: 50px;
+padding-left: 30px;
+font-size: 25px;
+}
+.content h4 i
+{
+    padding-right: 15px;
+
+}
+.content h4 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+main
+{
+    display: flex;
+}
+
+
+main section .scrolablecontent
+{
+    margin-left: 170px;
+    width: 820px;
+    height: 7000px;
+    padding-left: 50px;
+}
+main section .story
+{
+    width: 750px;
+    height: 110px;
+    margin-left: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+main section .story a
+{
+    text-decoration: none;
+}
+
+main section .story1
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 3px solid red ;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    animation-name: stry1;  
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ text-decoration: none;
+
+}
+
+@keyframes stry1
+{
+0%
+{
+border-color: darkorange;
+}
+25%
+{
+border-color: red;
+}
+50%
+{
+border-color: darkorange;
+}
+75%
+{
+border-color:red ;
+}
+
+100%
+{
+border-color:darkorange ;
+}
+}
+main section .story1 h4
+{
+ margin-top: 65px;
+ color: black;
+}
+main section .story2
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border: 3px solid red ;
+    border-radius: 50%;
+    background-image: url(Screenshot\ 2024-09-13\ 142532.png);
+    background-size: cover;
+    animation-name: stry2;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ 
+}
+@keyframes stry2
+{
+0%
+{
+border-color: darkorange;
+}
+25%
+{
+border-color: red;
+}
+50%
+{
+border-color: darkorange;
+}
+75%
+{
+border-color:red ;
+}
+
+100%
+{
+border-color:darkorange ;
+}
+}
+main section .story2 h4
+{
+ margin-top: 65px;
+ color: black;
+}
+
+main section .story3
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 3px solid red ;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    animation-name: stry3;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ 
+}
+@keyframes stry3
+{
+0%
+{
+border-color: darkorange;
+}
+25%
+{
+border-color: red;
+}
+50%
+{
+border-color: darkorange;
+}
+75%
+{
+border-color:red ;
+}
+
+100%
+{
+border-color:darkorange ;
+}
+}
+main section .story3 h4
+{
+ margin-top: 65px;
+ color: black;
+}
+main section .story4
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border: 3px solid red ;
+    border-radius: 50%;
+    background-image: url(fashion3.webp);
+    background-size: cover;
+    animation-name: stry4;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ 
+}
+@keyframes stry4
+{
+0%
+{
+border-color: darkorange;
+}
+25%
+{
+border-color: red;
+}
+50%
+{
+border-color: darkorange;
+}
+75%
+{
+border-color:red ;
+}
+
+100%
+{
+border-color:darkorange ;
+}
+}
+main section .story4 h4
+{
+ margin-top: 65px;
+ color: black;
+}
+main section .story5
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border: 3px solid red ;
+    border-radius: 50%;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    animation-name: stry5;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ 
+}
+@keyframes stry5
+{
+0%
+{
+border-color: darkorange;
+}
+25%
+{
+border-color: red;
+}
+50%
+{
+border-color: darkorange;
+}
+75%
+{
+border-color:red ;
+}
+
+100%
+{
+border-color:darkorange ;
+}
+}
+main section .story5 h4
+{
+ margin-top: 65px;
+ color: black;
+}
+main section .story6
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border: 3px solid red ;
+    border-radius: 50%;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    animation-name: stry6;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ 
+}
+@keyframes stry6
+{
+0%
+{
+border-color: darkorange;
+}
+25%
+{
+border-color: red;
+}
+50%
+{
+border-color: darkorange;
+}
+75%
+{
+border-color:red ;
+}
+
+100%
+{
+border-color:darkorange ;
+}
+}
+
+main section .story6 h4
+{
+ margin-top: 65px;
+ color: black;
+}
+
+main section .story7
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border: 3px solid red ;
+    border-radius: 50%;
+    background-image: url(fashion5.webp);
+    background-size: cover;
+    animation-name: stry7;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ 
+}
+@keyframes stry7
+{
+0%
+{
+border-color: darkorange;
+}
+25%
+{
+border-color: red;
+}
+50%
+{
+border-color: darkorange;
+}
+75%
+{
+border-color:red ;
+}
+
+100%
+{
+border-color:darkorange ;
+}
+}
+main section .story7 h4
+{
+ margin-top: 65px;
+ color: black;
+}
+main section .story8
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border: 3px solid red ;
+    border-radius: 50%;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    animation-name: stry8;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ 
+}
+@keyframes stry8
+{
+0%
+{
+border-color: darkorange;
+}
+25%
+{
+border-color: red;
+}
+50%
+{
+border-color: darkorange;
+}
+75%
+{
+border-color:red ;
+}
+
+100%
+{
+border-color:darkorange ;
+}
+}
+main section .story8 h4
+{
+ margin-top: 65px;
+ color: black;
+ 
+}
+
+main section .post1
+{
+    height: 650px;
+    width: 600px;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+main section .post1 .details
+{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    margin-left: -45px;
+    
+    
+}
+main section .post1 .details .story10
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+main section .post1 .details h4
+{
+ font-size: 20px;
+ margin-left: 30px;
+ margin-top: 0px;
+ 
+}
+main section .post1 .details .dis
+{
+height: 20px;
+width: 300px;
+margin-top: 20px;
+margin-left: -95px;
+}
+
+main section .post1 .details .story10 h4
+{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+main section .post1 .video
+{
+    height: 500px;
+    width: 600px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: contain;
+}
+main section .post1 .reaction
+{
+    
+    height: 100px;
+    width: 600px;
+}
+.post1 .reaction i
+{
+    font-size: 22px;
+    margin: 8px;
+}
+.post1 .reaction .like
+{
+    display: flex;
+    position: absolute;
+    height: -10px;
+}
+.post1 .reaction .icon1
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.post1 .reaction .icon2
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -6px;
+}
+.post1 .reaction h6{
+    margin-left: 12px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+.post1 .reaction p span
+{
+    font-weight: bold;
+}
+.post1 .reaction input
+{
+    border: none;
+    margin-bottom: 5px;
+}
+
+
+main section .post2
+{
+    height: 650px;
+    width: 600px;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+main section .post2 .details
+{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    margin-left: -45px;
+}
+
+main section .post2 .details .story11
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+main section .post2 .details h4
+{
+ font-size: 20px;
+ margin-left: 30px;
+ margin-top: 0px;
+ 
+}
+main section .post2 .details .dis
+{
+height: 20px;
+width: 300px;
+margin-top: 20px;
+margin-left: -95px;
+}
+
+main section .post2 .details .story11 h4
+{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+main section .post2 .video
+{
+    height: 500px;
+    width: 600px;
+    
+}
+main section .post2 .reaction
+{
+    
+    height: 100px;
+    width: 600px;
+}
+.post2 .reaction i
+{
+    font-size: 22px;
+    margin: 8px;
+}
+.post2 .reaction .like
+{
+    display: flex;
+    position: absolute;
+    height: -10px;
+}
+.post2 .reaction .icon1
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.post2 .reaction .icon2
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -6px;
+}
+.post2 .reaction h6{
+    margin-left: 12px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+.post2 .reaction p span
+{
+    font-weight: bold;
+}
+.post2 .reaction input
+{
+    border: none;
+    margin-bottom: 5px;
+}
+
+main section .post3
+{
+    height: 650px;
+    width: 600px;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+main section .post3 .details
+{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    margin-left: -45px;
+    
+}
+main section .post3 .details .story12
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+main section .post3 .details h4
+{
+ font-size: 20px;
+ margin-left: 30px;
+ margin-top: 0px;
+ 
+}
+main section .post3 .details .dis
+{
+height: 20px;
+width: 300px;
+margin-top: 20px;
+margin-left: -95px;
+}
+
+main section .post3 .details .story12 h4
+{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+main section .post3 .video
+{
+    height: 500px;
+    width: 600px;
+    
+}
+main section .post3 .reaction
+{
+    height: 100px;
+    width: 600px;
+    }
+    .post3 .reaction i
+{
+    font-size: 22px;
+    margin: 8px;
+}
+.post3 .reaction .like
+{
+    display: flex;
+    position: absolute;
+    height: -10px;
+}
+.post3 .reaction .icon1
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.post3 .reaction .icon2
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -6px;
+}
+.post3 .reaction h6{
+    margin-left: 12px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+.post3 .reaction p span
+{
+    font-weight: bold;
+}
+.post3 .reaction input
+{
+    border: none;
+    margin-bottom: 5px;
+}
+
+main section .post4
+{
+    height: 650px;
+    width: 600px;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+main section .post4 .details
+{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    margin-left: -45px;
+   
+}
+main section .post4 .details .story13
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+main section .post4 .details h4
+{
+ font-size: 20px;
+ margin-left: 30px;
+ margin-top: 0px;
+ 
+}
+main section .post4 .details .dis
+{
+height: 20px;
+width: 300px;
+margin-top: 20px;
+margin-left: -95px;
+}
+
+main section .post4 .details .story13 h4
+{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+main section .post4 .video
+{
+    height: 500px;
+    width: 600px;
+    
+}
+main section .post4 .reaction
+{
+    height: 100px;
+    width: 600px;
+}
+.post4 .reaction i
+{
+    font-size: 22px;
+    margin: 8px;
+}
+.post4 .reaction .like
+{
+    display: flex;
+    position: absolute;
+    height: -10px;
+}
+.post4 .reaction .icon1
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.post4 .reaction .icon2
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -6px;
+}
+.post4 .reaction h6{
+    margin-left: 12px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+.post4 .reaction p span
+{
+    font-weight: bold;
+}
+.post4 .reaction input
+{
+    border: none;
+    margin-bottom: 5px;
+}
+
+main section .post5
+{
+    height: 650px;
+    width: 600px;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+main section .post5 .details
+{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    margin-left: -45px;
+
+}
+main section .post5 .details .story14
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+main section .post5 .details h4
+{
+ font-size: 20px;
+ margin-left: 30px;
+ margin-top: 0px;
+ 
+}
+main section .post5 .details .dis
+{
+height: 20px;
+width: 300px;
+margin-top: 20px;
+margin-left: -95px;
+}
+
+main section .post5 .details .story14 h4
+{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+main section .post5 .video
+{
+    height: 500px;
+    width: 600px;
+    
+}
+main section .post5 .reaction
+{
+    height: 100px;
+    width: 600px;
+}
+.post5 .reaction i
+{
+    font-size: 22px;
+    margin: 8px;
+}
+.post5 .reaction .like
+{
+    display: flex;
+    position: absolute;
+    height: -10px;
+}
+.post5 .reaction .icon1
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.post5 .reaction .icon2
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -6px;
+}
+.post5 .reaction h6{
+    margin-left: 12px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+.post5 .reaction p span
+{
+    font-weight: bold;
+}
+.post5 .reaction input
+{
+    border: none;
+    margin-bottom: 5px;
+}
+
+main section .post6
+{
+    height: 650px;
+    width: 600px;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+main section .post6 .details
+{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    margin-left: -45px;
+}
+main section .post6 .details .story15
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+main section .post6 .details h4
+{
+ font-size: 20px;
+ margin-left: 30px;
+ margin-top: 0px;
+ 
+}
+main section .post6 .details .dis
+{
+height: 20px;
+width: 300px;
+margin-top: 20px;
+margin-left: -95px;
+}
+
+main section .post6 .details .story15 h4
+{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+main section .post6 .video
+{
+    height: 500px;
+    width: 600px;
+    
+}
+main section .post6 .reaction
+{
+    
+    height: 100px;
+    width: 600px;
+}
+.post6 .reaction i
+{
+    font-size: 22px;
+    margin: 8px;
+}
+.post6 .reaction .like
+{
+    display: flex;
+    position: absolute;
+    height: -10px;
+}
+.post6 .reaction .icon1
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.post6 .reaction .icon2
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -6px;
+}
+.post6 .reaction h6{
+    margin-left: 12px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+.post6 .reaction p span
+{
+    font-weight: bold;
+}
+.post6 .reaction input
+{
+    border: none;
+    margin-bottom: 5px;
+}
+
+main section .post7
+{
+    height: 650px;
+    width: 600px;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+main section .post7 .details
+{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    margin-left: -45px;
+}
+main section .post7 .details .story16
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+main section .post7 .details h4
+{
+ font-size: 20px;
+ margin-left: 30px;
+ margin-top: 0px;
+ 
+}
+main section .post7 .details .dis
+{
+height: 20px;
+width: 300px;
+margin-top: 20px;
+margin-left: -95px;
+}
+
+main section .post7 .details .story16 h4
+{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+main section .post7 .video
+{
+    height: 500px;
+    width: 600px;
+    
+}
+main section .post7 .reaction
+{
+    height: 100px;
+    width: 600px;
+}
+.post7 .reaction i
+{
+    font-size: 22px;
+    margin: 8px;
+}
+.post7 .reaction .like
+{
+    display: flex;
+    position: absolute;
+    height: -10px;
+}
+.post7 .reaction .icon1
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.post7 .reaction .icon2
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -6px;
+}
+.post7 .reaction h6{
+    margin-left: 12px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+.post7 .reaction p span
+{
+    font-weight: bold;
+}
+.post7 .reaction input
+{
+    border: none;
+    margin-bottom: 5px;
+}
+
+main section .post8
+{
+    height: 650px;
+    width: 600px;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+main section .post8 .details
+{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    margin-left: -45px;
+}
+main section .post8 .details .story17
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+main section .post8 .details h4
+{
+ font-size: 20px;
+ margin-left: 30px;
+ margin-top: 0px;
+ 
+}
+main section .post8 .details .dis
+{
+height: 20px;
+width: 300px;
+margin-top: 20px;
+margin-left: -95px;
+}
+
+main section .post8 .details .story17 h4
+{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+main section .post8 .video
+{
+    height: 500px;
+    width: 600px;
+    
+}
+main section .post8 .reaction
+{
+    
+    height: 100px;
+    width: 600px;
+}
+.post8 .reaction i
+{
+    font-size: 22px;
+    margin: 8px;
+}
+.post8 .reaction .like
+{
+    display: flex;
+    position: absolute;
+    height: -10px;
+}
+.post8 .reaction .icon1
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.post8 .reaction .icon2
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -6px;
+}
+.post8 .reaction h6{
+    margin-left: 12px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+.post8 .reaction p span
+{
+    font-weight: bold;
+}
+.post8 .reaction input
+{
+    border: none;
+    margin-bottom: 5px;
+}
+main section .post9
+{
+    height: 650px;
+    width: 600px;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+main section .post9 .details
+{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    margin-left: -45px;
+}
+main section .post9 .details .story18
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+main section .post9 .details h4
+{
+ font-size: 20px;
+ margin-left: 30px;
+ margin-top: 0px;
+ 
+}
+main section .post9 .details .dis
+{
+height: 20px;
+width: 300px;
+margin-top: 20px;
+margin-left: -95px;
+}
+
+main section .post9 .details .story18 h4
+{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+main section .post9 .video
+{
+    height: 500px;
+    width: 600px;
+    
+}
+main section .post9 .reaction
+{
+    
+    height: 100px;
+    width: 600px;
+}
+.post9 .reaction i
+{
+    font-size: 22px;
+    margin: 8px;
+}
+.post9 .reaction .like
+{
+    display: flex;
+    position: absolute;
+    height: -10px;
+}
+.post9 .reaction .icon1
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.post9 .reaction .icon2
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -6px;
+}
+.post9 .reaction h6{
+    margin-left: 12px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+.post1 .reaction p span
+{
+    font-weight: bold;
+}
+.post9 .reaction input
+{
+    border: none;
+    margin-bottom: 5px;
+}
+
+main section .post10
+{
+    height: 650px;
+    width: 600px;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+main section .post10 .details
+{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    margin-left: -45px;
+}
+main section .post10 .details .story19
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+main section .post10 .details h4
+{
+ font-size: 20px;
+ margin-left: 30px;
+ margin-top: 0px;
+ 
+}
+main section .post10 .details .dis
+{
+height: 20px;
+width: 300px;
+margin-top: 20px;
+margin-left: -95px;
+}
+
+main section .post10 .details .story19 h4
+{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+main section .post10 .video
+{
+    height: 500px;
+    width: 600px;
+    
+}
+main section .post10 .reaction
+{
+    
+    height: 100px;
+    width: 600px;
+}
+.post10 .reaction i
+{
+    font-size: 22px;
+    margin: 8px;
+}
+.post10 .reaction .like
+{
+    display: flex;
+    position: absolute;
+    height: -10px;
+}
+.post10 .reaction .icon1
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.post10 .reaction .icon2
+{
+    height: 20px;
+    width: 20px;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: -6px;
+}
+.post10 .reaction h6{
+    margin-left: 12px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+.post10 .reaction p span
+{
+    font-weight: bold;
+}
+.post10 .reaction input
+{
+    border: none;
+    margin-bottom: 5px;
+}
+
+main section .scrolablecontent footer .firstline1 a
+{
+    color: black;
+    text-decoration: none;
+    opacity: 50%;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+main section .scrolablecontent footer .firstline1
+{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+main section .scrolablecontent footer p
+{
+    margin-left: 250px;
+    opacity: 50%;
+}
+main section .scrolablecontent footer .contact p 
+{
+    margin-left: 100px;
+    margin-top: 20px;
+    opacity: 50%;
+    
+}
+
+main .righthead .rightheadcontent
+{
+   height: 10000px;
+   width: 445px;
+   border-left: 1px solid black;
+   position: fixed;
+   
+} 
+
+.logo
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+
+    
+}
+.account
+{
+height: 100px;
+width: 500px;
+display: flex;
+}
+.account h6{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 55px;
+}
+.account p{
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.account a
+{
+    margin-top: 55px;
+    margin-left: 120px;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
+.suggetion
+{
+    display: flex;
+}
+.suggetion h6
+{
+    font-size: 16px;
+    margin-left: 50px;
+}
+.suggetion h5
+{
+    margin-left: 205px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.des1
+{
+    display: flex;
+}
+.profil1
+{
+     height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+.des1 h6
+{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 1px;
+}
+.des1 p
+{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.des1 a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 115px;
+}
+.profil2
+{
+     height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-image: url(fashion6.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.des2
+{
+    display: flex;
+}
+.des2 h6
+{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.des2 p
+{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.des2 a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 115px;
+    margin-top: 10px;
+
+}
+.profil3
+{
+     height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-image: url(fashion5.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.des3
+{
+    display: flex;
+}
+.des3 h6
+{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.des3 p
+{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.des3 a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 115px;
+    margin-top: 10px;
+
+}
+.profil4
+{
+     height: 40px;
+    width: 40px;
+    margin-left:50px;
+    margin-top: 10px;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.des4
+{
+    display: flex;
+}
+.des4 h6
+{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.des4 p
+{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.des4 a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 115px;
+    margin-top: 10px;
+
+}
+.profil5
+{
+     height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.des5
+{
+    display: flex;
+}
+.des5 h6
+{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.des5 p
+{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.des5 a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 115px;
+    margin-top: 10px;
+}
+.righthead .rightheadcontent .righthead-footer .firstline
+{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.righthead .rightheadcontent .righthead-footer .firstline a
+{
+    color: black;
+    opacity: 50%;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+.righthead .rightheadcontent .righthead-footer .secondline
+{
+    margin-top: 0px;
+    margin-left: 110px;
+}
+.righthead .rightheadcontent .righthead-footer .secondline a
+{
+    color: black;
+    opacity: 50%;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.righthead .rightheadcontent .righthead-footer p{
+    opacity: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#reels div{
+    margin-left: 230px;
+    margin-top: 50px;
+
+
+
+}
+#reels div video
+{
+    width: 810px;
+}
+#reels div .reactionbar
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+  /* User mesagge snedind recieving styling part */
+#messege
+{
+    margin-top: 10px;
+}
+
+#Messege .wholebox
+{
+    background-color: white;
+    height: 760px;
+    width: 1280px;
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+}
+#Messege .wholebox .box1
+{
+    
+    height: 760px;
+    width: 450px;
+    border-right: 1px solid black;
+}
+#Messege .wholebox .box1 h1
+{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#Messege .wholebox .box1 .user
+{
+    display: flex;
+    margin-left: 20px;
+    gap: 20px;
+}
+#Messege .wholebox .box1 .user a
+{
+    text-decoration: none;
+}
+#Messege .wholebox .box1 .user h4
+{
+    margin-top:70px;
+    font-size: 12px;
+}
+#Messege .wholebox .box1 .user .user1
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+}
+#Messege .wholebox .box1 .user .user2
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+}
+#Messege .wholebox .box1 .user .user3
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+}
+#Messege .wholebox .box1 .user .user4
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(fashion3.webp);
+    background-size: cover;
+}
+#Messege .wholebox .box1 .user .user5
+{
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(fashion6.jpg);
+    background-size: cover;
+}
+#Messege .wholebox .box1 .request
+{
+    display: flex;
+    gap: 230px;
+    height: 90px;
+}
+#Messege .wholebox .box1 .request h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+#Messege .wholebox .box1 .request .kam
+{
+    opacity: 50%;
+}
+
+
+#Messege .wholebox .box1 .msg
+{
+    margin-left: 20px;
+
+}
+#Messege .wholebox .box1 .msg a
+{
+    text-decoration: none;
+}
+#Messege .wholebox .box1 .msg h4
+{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+#Messege .wholebox .box1 .msg p
+{
+    margin-left: 80px;
+    margin-top: -20px;
+}
+#Messege .wholebox .box1 .msg1
+{
+    margin-top: 2px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(fashion1.webp);
+    background-size: cover;
+}
+#Messege .wholebox .box1 .msg2
+{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(fashion2.webp);
+    background-size: cover;
+}
+#Messege .wholebox .box1 .msg3
+{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(fashion3.webp);
+    background-size: cover;
+}
+#Messege .wholebox .box1 .msg4
+{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(fashion4.webp);
+    background-size: cover;
+}
+#Messege .wholebox .box1 .msg5
+{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(fashion6.jpg);
+    background-size: cover;
+}
+
+#Messege .wholebox .box2
+{
+
+    height: 760px;
+    width: 850px;
+}
+#Messege .wholebox .box2 .itm
+{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 20px;
+}
+#Messege .wholebox .box2 .sendmessege
+{
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: blue;
+    margin-left: 350px;
+}
+#Messege .wholebox .box2 .sendmessege p
+{
+    padding: 10px;
+}
+#Messege .wholebox .box2 i
+{
+    font-size: 100px;
+}
+  /* User story  styling part */
+#story1 video
+{
+    margin-top: 10px;
+    margin-left: 450px;
+}
+#story2 video
+{
+    margin-top: 10px;
+    margin-left: 450px;
+}
+#story3 video
+{
+    margin-top: 10px;
+    margin-left: 450px;
+}
+#story4 video
+{
+    margin-top: 10px;
+    margin-left: 450px;
+}
+#story5 video
+{
+    margin-top: 10px;
+    margin-left: 450px;
+}
+#story6 video
+{
+    margin-top: 10px;
+    margin-left: 450px;
+}
+#story7 video
+{
+    margin-top: 10px;
+    margin-left: 450px;
+}
+#story8 video
+{
+    margin-top: 10px;
+    margin-left: 450px;
+}
+  /* more  styling part */
+#more .moreclass
+{
+    position: absolute;
+    height: 680px;
+    width:400px ;
+    margin-left: 231px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+
+}
+#more .moreclass .moreitem div
+{
+font-weight: bold;
+font-size: 25px;
+margin: 50px;
+width: 600px;
+
+
+}
+#more .moreclass .moreitem div i
+{
+    margin-right: 40px;
+}
+#more .moreclass .moreitem div:hover
+{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+  /* User profile with details highlight and post  styling part */
+#userprofile
+{
+    margin-top: 681px;
+}
+#userprofile .maindiv
+{
+    height: 1000px;
+    width: 1270px;
+    margin-left: 231px;
+    position: absolute;
+   
+    background-color: white;
+}
+#userprofile .maindiv .profilelogo
+{
+    margin-top: 80px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid red ;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+    position: absolute;
+    margin-left:250px;
+
+}
+#userprofile .maindiv .upper
+{
+    height: 500px;
+    width: 1270px;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+#userprofile .maindiv .upper .profiledetails .username
+{
+    display: flex;
+    gap: 25px;
+    margin-left: 500px;
+    margin-top: 100px;
+    text-align: center;
+}
+#userprofile .maindiv .upper .profiledetails .username p
+{
+    font-size: 25px;
+}
+#userprofile .maindiv .upper .profiledetails .username .edit 
+{
+    margin-top: 25px;
+    background-color:aliceblue;
+    border-radius: 20%;
+    height: 25px;
+    width: 120px;
+    font-weight: bold;
+}
+#userprofile .maindiv .upper .profiledetails .username .archive
+{
+    margin-top: 25px;
+    background-color:aliceblue;
+    border-radius: 20%;
+    height: 25px;
+    width: 120px;
+    font-weight: bold;
+}
+#userprofile .maindiv .upper .profiledetails .username i
+{
+    margin-top: 25px;
+    font-size: 20px;
+}
+#userprofile .maindiv .upper .follow
+{
+    margin-top: 170px;
+    display: flex;
+    margin-left: -450px;
+    gap: 60px;
+}
+#userprofile .maindiv .upper h1
+{
+    margin-top: 220px;
+    margin-left:-350px ;
+    
+}
+#userprofile .maindiv .upper .bio
+{
+    margin-top: 260px;
+    margin-left: -160px;
+
+}
+#userprofile .maindiv .upper .highlight
+{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: -200px;
+}
+
+#userprofile .maindiv .upper .highlight .user1
+{
+    margin-top: 20px;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+}
+#userprofile .maindiv .upper .highlight .user2
+{
+    margin-top: 20px;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+}
+#userprofile .maindiv .upper .highlight .user3
+{
+    margin-top: 20px;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+}
+#userprofile .maindiv .upper .highlight .user4
+{
+    margin-top: 20px;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+}
+#userprofile .maindiv .upper .highlight .user5
+{
+    margin-top: 20px;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    border: 1px solid black ;
+    background-image: url(WhatsApp\ Image\ 2023-12-09\ at\ 00.36.20_cef3d152.jpg);
+    background-size: cover;
+}
+#userprofile .maindiv .upper .highlight i
+{
+    margin-top: 30px;
+    font-size: 85px;
+   
+}
+#userprofile .maindiv .upper .highlight a
+{
+    text-decoration: none;
+
+}
+#userprofile .maindiv .upper .highlight a h4
+{
+    margin-top: 100px;
+    color: black;
+}
+#userprofile .maindiv .nav
+{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+#userprofile .maindiv .nav p i
+{
+    margin-right: 10px;
+}
+#userprofile .maindiv .nopost
+{
+    text-align: center;
+    margin-top: 100px;
+}
+#userprofile .maindiv .nopost i
+{
+    font-size: 55px;
+}
+#userprofile .maindiv .nopost h1
+{
+    font-weight: bold;
+}
+#userprofile .maindiv .nopost a
+{
+    text-decoration: none;
+    font-size: 25px;
+}
+#userprofile .maindiv .foot 
+{
+
+    opacity: 50%;
+    text-align: center;
+    margin-top: 60px;
+
+    
+}
+#userprofile .maindiv .foot a
+{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+#userprofile .maindiv .date 
+{
+    opacity: 50%;
+    text-align: center;
+}
+
+  /* create new post and story styling part */
+#create .mainbox
+{
+    position: absolute;
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    border: 1px solid beige;
+    text-align: center;
+
+}
+#create
+{
+    margin-top: 800px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    height: 650px;
+}
+#create .mainbox .nav
+{
+    height: 70px;
+    width: 600px;
+    border-radius: 10px;
+    border-bottom: 1px solid beige;
+}
+
+#create .mainbox .nav p
+{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#create .mainbox .secondbox
+{
+    margin-top: 150px;
+    
+}
+
+#create .mainbox .secondbox i
+{
+    font-size: 60px;
+}
+#create .mainbox .secondbox p
+{
+    font-size: 25px;
+}
+#create .mainbox .secondbox .select
+{
+    background-color: dodgerblue;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    margin-left: 200px;
+}
+#create .mainbox .secondbox .select p
+{
+    margin-top: 20px;
+    font-weight:bold;
+    font-size: 20px;
+    color: white;
+}
+                               /* serch user styling part */
+#search .searchbox
+{
+    height: 600px;
+    width: 500px;
+    text-align: center;
+    margin-left: 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#search .searchbox h1
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+#search .searchbox input
+{
+    width: 400px;
+    background-color:aliceblue;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#search .searchbox p 
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -400px;
+}
+
+#search .searchbox h6
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+@media (max-width:451px)
+
+{
+
+    header nav .content
+    {
+       
+    
+        position: relative;
+        display: none;
+    }
+    main .righthead .rightheadcontent
+{
+  display: none;
+  position: relative;
+   
+} 
+
+main section .scrolablecontent
+{
+    margin-left: 0px;
+    width: 450px;
+    padding-left: 0px;
+}
+main section .story
+{
+    width: 450px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: 0px;
+    gap: 8px;
+    
+    justify-content: start;
+}
+main section .story1
+  {
+    height: 40px ;
+    width: 40px;
+    margin-left: 2px;
+   }
+   main section .story2
+  {
+    height: 40px ;
+    width: 40px;
+    margin-left: 0px;
+   }
+   main section .story3
+  {
+    height: 40px ;
+    width: 40px;
+    margin-left: 0px;
+   }
+   main section .story4
+   {
+    height: 40px ;
+    width: 40px;
+     margin-left: 0px;
+    }
+    main section .story5
+    {
+        height: 40px ;
+    width: 40px;
+      margin-left: 0px;
+     }
+     main section .story6
+     {
+        height: 40px ;
+        width: 40px;
+       margin-left: 0px;
+      }
+      main section .story7
+      {
+        height: 40px ;
+        width: 40px;
+        margin-left: 0px;
+       }
+       main section .story8
+       {
+        height: 40px ;
+        width: 40px;
+         margin-left: 0px;
+        }
+
+        main section .story h4
+      {
+      
+      margin-top: 50px;
+      font-size: 8px;
+     
+     
+    }
+
+    main section .details{
+        margin-top: 0px;
+    }
+    main section .post1
+   {
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 450px;
+   }
+   main section .post1 .video 
+   {
+    width: 450px;
+   }
+   main section .post2
+   {
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 450px;
+   }
+   main section .post2 .video video
+   {
+    width: 450px;
+    margin-left: -60px;
+   }
+   main section .post3
+   {
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 450px;
+   }
+   main section .post4
+   {
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 450px;
+   }
+   main section .post5
+   {
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 450px;
+   }
+   main section .post6
+   {
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 450px;
+   }
+   main section .post7
+   {
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 450px;
+   }
+   main section .post8
+   {
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 450px;
+   }
+   main section .post9
+   {
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 450px;
+   }
+  
+   main section .post10
+   {
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 450px;
+   
+   }
+   main section .post3 .video video
+   {
+    width: 450px;
+    margin-left: -50px;
+    
+   }
+   main section .post4 .video video
+   {
+    width: 450px;
+    margin-left: -50px;
+   }
+   main section .post5 .video video
+   {
+    width: 450px;
+    margin-left: -50px;
+   }
+   main section .post6 .video video
+   {
+    width: 450px;
+    margin-left: -50px;
+   }
+   main section .post7 .video video
+   {
+    width: 450px;
+    margin-left: -30px;
+   }
+   main section .post8 .video video
+   {
+    width: 450px;
+    margin-left: -20px;
+   }
+   main section .post9 .video video
+   {
+    width: 450px;
+    margin-left: -50px;
+   }
+   main section .post2 .video
+   {
+    width: 450px;
+   }
+   main section .post3 .video
+   {
+    width: 450px;
+   }
+   main section .post4 .video
+   {
+    width: 450px;
+   }
+   main section .post5 .video
+   {
+    width: 450px;
+   }
+   main section .post6 .video
+   {
+    width: 450px;
+   }
+   main section .post7 .video
+   {
+    width: 450px;
+   }
+   main section .post8 .video
+   {
+    width: 450px;
+   }
+   main section .post9 .video
+   {
+    width: 450px;
+   }
+   main section .post10 .video
+   {
+    width: 450px;
+   }
+    main section .post10 .story19
+    {
+        width: 450px;
+    }
+   main section .post10 .video video
+   {
+    width: 450px;
+    margin-left: -50px;
+   }
+   main section .post1 .details
+   {
+    width: 450px;
+   }
+   main section .post2 .details
+   {
+    width: 450px;
+   }
+   main section .post3 .details
+   {
+    width: 450px;
+   }
+   main section .post4 .details
+   {
+    width: 450px;
+   }
+   main section .post5 .details
+   {
+    width: 450px;
+   }
+   main section .post6 .details
+   {
+    width: 450px;
+   }
+   main section .post7 .details
+   {
+    width: 450px;
+   }
+   main section .post8 .details
+   {
+    width: 450px;
+   }
+   main section .post9 .details
+   {
+    width: 450px;
+   }
+   main section .post10 .details
+   {
+    width: 450px;
+   }
+   main section .post1 .reaction
+{
+    
+    height: 100px;
+    width: 450px;
+}
+main section .post2 .reaction
+{
+    
+    height: 100px;
+    width: 450px;
+}
+main section .post3 .reaction
+{
+    
+    height: 100px;
+    width: 450px;
+}
+main section .post4 .reaction
+{
+    
+    height: 100px;
+    width: 450px;
+}
+main section .post5 .reaction
+{
+    
+    height: 100px;
+    width: 450px;
+}
+main section .post6 .reaction
+{
+    
+    height: 100px;
+    width: 450px;
+}
+main section .post7 .reaction
+{
+    
+    height: 100px;
+    width: 450px;
+}
+main section .post8 .reaction
+{
+    
+    height: 100px;
+    width: 450px;
+}
+main section .post9 .reaction
+{
+    
+    height: 100px;
+    width: 450px;
+}
+main section .post10 .reaction
+{
+    
+    height: 100px;
+    width: 450px;
+}
+main section .post1 .reaction p
+{
+    font-size: 11px;
+    margin-top: 20px;
+}
+main section .post2 .reaction p
+{
+    font-size: 11px;
+    margin-top: 20px;
+}
+main section .post3 .reaction p
+{
+    font-size: 11px;
+    margin-top: 20px;
+}
+main section .post4 .reaction p 
+{
+    font-size: 11px;
+    margin-top: 20px;
+}
+main section .post5 .reaction p
+{
+    font-size: 11px;
+    margin-top: 20px;
+}
+main section .post6 .reaction p
+{
+    font-size: 11px;
+    margin-top: 20px;
+}
+main section .post7 .reaction p
+{
+    font-size: 11px;
+    margin-top: 20px;
+}
+main section .post8 .reaction p
+{
+    font-size: 11px;
+    margin-top: 20px;
+}
+main section .post9 .reaction p
+{
+    font-size: 11px;
+    margin-top: 20px;
+}
+main section .post10 .reaction p
+{
+    font-size: 11px;
+    margin-top: 20px;
+}
+main section .scrolablecontent footer .firstline1
+{
+    margin-top: 100px;
+    margin-left: 10px;
+    font-size: 11px;
+}
+main section .scrolablecontent footer  p
+{
+    margin-left: 70px;
+}
+header nav .content
+{
+    height: 20px;
+    width: 450px;
+    /* position: absolute; */
+    padding: 0;
+    border-right: 1px solid black;
+    flex-wrap: wrap;
+    display: block;
+ 
+}
+
+.content h1
+{
+   display: none;
+}
+
+.leftHeading .lefthead .content .menu
+{
+    margin-left: 10px;
+    gap: 34px;
+    margin-right: 0px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 450px;
+    position: fixed;
+    top: 550px;
+    
+    
+
+    /* position: fixed;
+    top: 530px;
+    z-index: 99; */
+}
+.menu h3 a i
+{
+   padding-right: 0px;
+}
+.menu h3 a
+{
+
+    text-decoration: none;
+    color: black;
+}
+.menu p
+{
+    padding-top:5px ;
+    padding-bottom:10px ;
+    font-size: 15px;
+    
+}
+.menu p a i
+{
+   padding-right: 0px;
+}
+.menu p a
+{
+    text-decoration: none;
+    color: black;
+}
+.content h4 
+{
+padding-top: 45px;
+padding-left: 0px;
+font-size: 25px;
+position: fixed;
+top: 550px;
+}
+.content h4 a
+{
+    padding-right: 0px;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -58px;
+    margin-left: 400px;
+    position: fixed;
+
+
+}
+.content h4 a
+{
+    position: fixed;
+}
+.content h4 a span
+{
+    display: none;
+}
+.content h4 a
+{
+    text-decoration: none;
+    color: black;
+    display: inline;
+
+}
+.menu p a  span 
+{
+    display: none;
+}
+
+.menu h3 a  span 
+{
+    display: none;
+}
+#Messege .wholebox
+{
+    width: 450px;
+}
+#Messege .wholebox .box2
+{
+    display: none;
+}
+
+#Messege .wholebox .box1
+{
+    margin-left: 0px;
+    height: 900px;
+    width: 450px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: none;
+    
+}
+#Messege .wholebox .box1 .request .kam
+{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+#Messege .wholebox .box1 .user
+{
+    width: 380px;
+    gap: 10px;
+    margin-left: 0px;
+}
+#create .mainbox
+{
+    margin-left: -120px;
+    height: 900px;
+    width: 450px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: none;
+}
+#create .mainbox .nav 
+{
+  margin-left: -80px
+}
+#create .mainbox .secondbox .select
+{
+    margin-left:120px ;
+}
+
+#search .searchbox
+{
+    margin-left: 0px;
+    border: none;
+    width: 450px;
+}
+
+#userprofile .maindiv
+{
+    margin-left: 0px;
+}
+#reels div
+{
+    margin-left: 0px;
+}
+#reels div video
+{
+width: 450px;
+}
+#story1 video
+{
+    
+    width: 450px;
+}
+#story1
+{
+    margin-left: -450px;
+}
+#story2 video
+{
+    
+    width: 450px;
+}
+#story2
+{
+    margin-left: -450px;
+}
+#story3 video
+{
+    
+    width: 450px;
+}
+#story3
+{
+    margin-left: -450px;
+}
+#story4 video
+{
+    
+    width: 450px;
+}
+#story4
+{
+    margin-left: -450px;
+}
+#story5 video
+{
+    
+    width: 450px;
+}
+#story5
+{
+    margin-left: -450px;
+}
+#story6 video
+{
+    
+    width: 450px;
+}
+#story6
+{
+    margin-left: -450px;
+}
+#story7 video
+{
+    
+    width: 450px;
+}
+#story7
+{
+    margin-left: -450px;
+}
+#story8 video
+{
+    
+    width: 450px;
+}
+#story8
+{
+    margin-left: -450px;
+}
+
+#more .moreclass
+{
+    margin-left: 0px;
+}
+#userprofile .maindiv
+{
+    width: 450px;
+    margin-left: 0px;
+}
+#userprofile .maindiv .profilelogo
+{
+    margin-top: 80px;
+    height: 50px;
+    width: 50px;
+    margin-left:50px;
+
+}
+#userprofile .maindiv .upper
+{
+
+    width: 450px;
+   
+}
+#userprofile .maindiv .upper .profiledetails
+{
+    width: 450px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    
+}
+#userprofile .maindiv .upper .profiledetails .username
+{
+    margin-left: 130px;
+    margin-top: 70px;
+    
+}
+#userprofile .maindiv .upper .profiledetails .username p
+{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#userprofile .maindiv .upper .profiledetails .username .edit
+{
+    font-size: 10px;
+    width: 20px;
+}
+#userprofile .maindiv .upper .profiledetails .username .archive
+{
+    font-size: 10px;
+    width: 20px;
+}
+
+/*#userprofile .maindiv .upper .profiledetails .username .edit 
+{
+    margin-top: 25px;
+    background-color:aliceblue;
+    border-radius: 20%;
+    height: 25px;
+    width: 120px;
+    font-weight: bold;
+}
+    
+#userprofile .maindiv .upper .profiledetails .username .archive
+{
+    margin-top: 25px;
+    background-color:aliceblue;
+    border-radius: 20%;
+    height: 25px;
+    width: 120px;
+    font-weight: bold;
+}
+    */
+#userprofile .maindiv .upper .profiledetails .username i
+{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+#userprofile .maindiv .upper .follow
+{
+    margin-top: 120px;
+    margin-left: -280px;
+}
+#userprofile .maindiv .upper h1
+{
+    margin-top: 180px;
+    margin-left:-360px ;
+    font-size: 15px;
+    height: 20px;
+    
+    
+}
+#userprofile .maindiv .upper .bio
+{
+    margin-top: 240px;
+    margin-left: -100px;
+    width: 445px;
+    
+
+}
+#userprofile .maindiv .upper .highlight
+{
+   
+    margin-left: 0px;
+    width: 450px;
+    gap: 0px;
+    margin-top: 10px;
+}
+
+
+#userprofile .maindiv .upper .highlight .user1
+{
+   height: 50px;
+    width: 50px;
+    margin-right: 0;
+}
+#userprofile .maindiv .upper .highlight .user2
+{
+    height: 50px;
+    width: 50px;
+    margin-right: 0;
+   
+}
+#userprofile .maindiv .upper .highlight .user3
+{
+    height: 50px;
+    width: 50px;
+    margin-right: 0;
+}
+#userprofile .maindiv .upper .highlight .user4
+{
+    height: 50px;
+    width: 50px;
+    margin-right: 0;
+}
+#userprofile .maindiv .upper .highlight .user5
+{
+    height: 50px;
+    width: 50px;
+    margin-right: 0;
+}
+#userprofile .maindiv .upper .highlight i
+{
+   margin-top: 20px;
+    font-size: 50px;
+   
+}
+#userprofile .maindiv .upper .highlight i
+{
+    height: 10px;
+    width: 10px;
+}
+#userprofile .maindiv .upper .highlight a
+{
+    text-decoration: none;
+    height: 80px;
+    width: 70px;
+
+
+}
+#userprofile .maindiv .upper .highlight a h4
+{
+    margin-top: 60px;
+    color: black;
+    font-size: 10px;
+}
+#userprofile .maindiv .nav
+{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+#userprofile .maindiv .nav p i
+{
+    margin-right: 10px;
+
+}
+#userprofile .maindiv .nopost
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+#userprofile .maindiv .nopost i
+{
+    font-size: 55px;
+    margin-left: 20px;
+}
+#userprofile .maindiv .nopost h1
+{
+    font-weight: bold;
+    
+}
+#userprofile .maindiv .nopost a
+{
+    text-decoration: none;
+    font-size: 25px;
+}
+#userprofile .maindiv .foot 
+{
+    margin-left: 0px;
+    width: 450px;
+
+    
+}
+#userprofile .maindiv .foot a
+{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    
+}
+
+#userprofile .maindiv .date 
+{
+
+    margin-left: 20px;
+    width: 450px;
+}
+#search .searchbox input
+{
+    width: 340px;
+}
+
+main section .post4 .details
+{
+
+    width: 450px;
+   
+}
+#more .moreclass .moreitem div
+{
+    width: 450px;
+}
+#righthead .rightheadcontent .account
+{
+    width: 450px;
+}
+#create .mainbox .nav
+{
+    width: 450px;
+    p
+    {
+        margin-left: 100px;
+        font-size: 20px;
+    }
+}
+
+}
+
+

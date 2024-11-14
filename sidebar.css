@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.mainbox
+{
+   
+    height: 680px;
+    width: 1525px;
+    background-image: url(photo\ \(1\).jpg);
+    background-size: cover;
+
+}
+.mainbox .btn1 i
+    {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        left: 40px;
+        top: 30px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+.mainbox .bar
+{
+    height: 650px;
+    width: 300px;
+    background-color: rgb(62, 64, 64);
+    border:1px solid black;
+    position: fixed;
+    left: -300px;
+}
+.mainbox input
+{
+    display: none;
+    
+}
+.mainbox .bar p
+{
+    color: white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.mainbox .bar .btn2 i
+{
+    color:white;
+    font-size: 25px;
+    position: absolute;
+    left: 250px;
+    top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    
+    
+}
+.mainbox .bar .menu li
+{
+    line-height: 50px;
+    padding-left: 20px;
+    color: white;
+
+}
+.mainbox .bar .menu li i
+{
+    padding-right: 20px;
+    font-size: 20px;
+    padding: 22px;
+    color: white;
+}
+.mainbox .bar .menu li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.mainbox .bar .social_media
+{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.mainbox .bar .menu li:hover
+{
+    box-shadow: 0 0 4px black;
+}
+.mainbox .bar .social_media i
+{
+  padding-right: 10px;
+  color: black;
+  opacity: 50%;
+  color: white;
+  
+}
+#check:checked~ .mainbox .bar
+{
+height: 650px;
+width: -300px;
+margin-left: -300px;
+background-color: azure;
+}
+.btn1 i:hover 
+{
+    font-size: 30px;
+    transition: 0.2s linear;
+}
+
+.bar .btn2 i:hover 
+{
+   font-size: 30px;
+    transition: 0.2s linear;
+}
+.mainbox .bar .social_media i:hover
+{
+    opacity: 1;
+}
+
+#check:checked ~ .bar
+{
+    left: 0px;
+    transition: 0.2s linear;
+}
+#check:checked ~ .btn1 i
+{
+    opacity: 0;
+}
+#check:checked ~ .bar .btn2 i
+{
+    opacity: 1;
+}
